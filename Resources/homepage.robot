@@ -1,9 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Base/base.robot
-
-Resource    ../Pages/homepage.robot
+Resource    ${CURDIR}../Resource/main.resource
 
 *** Variable ***
 ${browser}    chrome

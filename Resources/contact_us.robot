@@ -1,11 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Base/base.robot
-
-Resource    ../Pages/contact_us.robot
-
-*** Variable ***
+Resource    ${CURDIR}../Resource/main.resource
 
 *** Keywords ***
 

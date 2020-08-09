@@ -1,7 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Resources/homepage.robot
+Resource    ${CURDIR}../Resource/main.resource
 
 ***Keywords***
 

@@ -1,7 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Resources/contact_us.robot
+Resource    ${CURDIR}../Resource/main.resource
 
 ***Keywords***
 #### QUANDO
