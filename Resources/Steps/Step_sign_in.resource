@@ -1,2 +1,2 @@
 *** Settings ***
-Resource    ../Resources/main.resource
+Resource    ${EXECDIR}\\Resources\\main.resource

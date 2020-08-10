@@ -1,6 +1,5 @@
 *** Settings ***
-Resource    ../Resources/main.resource
-Resource    ../Resources/contact_us.resource
+Resource    ${EXECDIR}\\Resources\\main.resource
 
 ***Keywords***
 #### QUANDO

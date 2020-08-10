@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200810 08:36:53.884" rpa="false">
+<suite id="s1" name="TC02" source="C:\Projetos\Automation_Practice\TestCases\TC02.robot">
+<test id="s1-t1" name="Cenário 01: Garantir que ao clicar no link Contact us está direcionando para a tela CUSTOMER SERVICE - CONTACT US e que todos os objetos da tela foram carregados">
+<kw name="Dado que esteja na tela HOME do site Automation Practice" library="base">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${keyword}</arg>
+</arguments>
+<kw name="Que esteja na tela HOME do site Automation Practice" library="Step_homepage">
+<kw name="Acessar site Automation Practice" library="homepage">
+<kw name="Abrir Navegador" library="base">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20200810 08:36:54.088" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/'.</msg>
+<status status="PASS" starttime="20200810 08:36:54.087" endtime="20200810 08:37:03.067"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200810 08:37:03.068" endtime="20200810 08:37:05.186"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.086" endtime="20200810 08:37:05.186"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.086" endtime="20200810 08:37:05.186"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.086" endtime="20200810 08:37:05.186"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.086" endtime="20200810 08:37:05.187"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.085" endtime="20200810 08:37:05.187"></status>
+</kw>
+<kw name="Quando clicar no link Contact_us" library="base">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${keyword}</arg>
+</arguments>
+<kw name="Clicar no link Contact_us" library="Step_contact_us">
+<kw name="Clicar em Contact_us" library="contact_us">
+<kw name="Clicar" library="base">
+<arguments>
+<arg>${link_contact_us}</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${element}</arg>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200810 08:37:05.189" endtime="20200810 08:37:05.215"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${element}</arg>
+</arguments>
+<msg timestamp="20200810 08:37:05.216" level="INFO">Clicking element '//*[@id="contact-link"]/a'.</msg>
+<status status="PASS" starttime="20200810 08:37:05.215" endtime="20200810 08:37:07.600"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:05.189" endtime="20200810 08:37:07.600"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:05.188" endtime="20200810 08:37:07.600"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:05.188" endtime="20200810 08:37:07.601"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:05.187" endtime="20200810 08:37:07.601"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:05.187" endtime="20200810 08:37:07.601"></status>
+</kw>
+<kw name="Então a tela Contact_us deve ser mostrada" library="base">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${keyword}</arg>
+</arguments>
+<kw name="A tela Contact_us deve ser mostrada" library="Step_contact_us">
+<kw name="Verificar tela Contact_us" library="contact_us">
+<kw name="Verificar Tela" library="base">
+<arguments>
+<arg>${title}</arg>
+<arg>Contact us - My Store</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${title}</arg>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200810 08:37:07.603" endtime="20200810 08:37:07.633"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20200810 08:37:07.637" level="INFO">Page title is 'Contact us - My Store'.</msg>
+<status status="PASS" starttime="20200810 08:37:07.633" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.603" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.602" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.602" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.602" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.601" endtime="20200810 08:37:07.638"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:54.084" endtime="20200810 08:37:07.638" critical="yes"></status>
+</test>
+<kw name="Fechar Navegador" library="base" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200810 08:37:07.640" endtime="20200810 08:37:09.772"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:37:07.639" endtime="20200810 08:37:09.773"></status>
+</kw>
+<status status="PASS" starttime="20200810 08:36:53.886" endtime="20200810 08:37:09.773"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TC02">TC02</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
