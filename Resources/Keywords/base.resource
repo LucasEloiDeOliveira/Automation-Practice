@@ -18,16 +18,40 @@ Abrir Navegador
     Maximize Browser Window
 
 Verificar Tela
-    [Arguments]    ${title}    ${text}
+    [Arguments]    ${element}    ${text}
 
-    Wait Until Element Is Visible    ${title}    5
+    Wait Until Element Is Visible    ${element}    5
     Title Should Be                  ${text}
+
+Verificar Texto
+    [Arguments]    ${text}
+
+    Page Should Contain    ${text}
+
+Verificar Texto do Elemento
+    [Arguments]    ${element}    ${text}
+
+    Wait Until Element Is Visible    ${element}    5
+    Element Should Contain           ${element}    ${text}
+
 
 Clicar
     [Arguments]    ${element}
 
     Wait Until Element Is Visible    ${element}    5
     Click Element                    ${element}
+
+Posicionar Mouse
+    [Arguments]    ${element}
+
+    Wait Until Element Is Visible    ${element}    5
+    Mouse Over                       ${element}
+
+Verificar Foco
+    [Arguments]    ${element}
+
+    Wait Until Element Is Visible    ${element}    5
+    Element Should Be Focused        ${element}
 
 Fechar Navegador
     Close Browser
