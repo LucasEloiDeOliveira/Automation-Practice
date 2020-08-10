@@ -1,9 +1,9 @@
 ***Settings***
 Library    SeleniumLibrary
 
-Resource    ..Resources/Page/Page_homepage.resource
-Resource    ..Resources/Page/Page_contact_us.resource
-Resource    ..Resources/Page/Page_sign_in.resource
+Resource    ..Resources/Pages/Page_homepage.resource
+Resource    ..Resources/Pages/Page_contact_us.resource
+Resource    ..Resources/Pages/Page_sign_in.resource
 
 Resource    ../Resources/Keywords/base.resource
 Resource    ../Resources/Keywords/homepage.resource
