@@ -9,3 +9,4 @@ ${menu_women}                //*[@id="block_top_menu"]/ul/li[1]/a
 ${menu_dress}                //*[@id="block_top_menu"]/ul/li[2]/a
 ${menu_tshirts}              //*[@id="block_top_menu"]/ul/li[3]/a
 ${women_submenu_tshirts}     //*[@id="block_top_menu"]/ul/li[1]/ul/li[1]/ul/li[1]/a
+${women_submenu_blouses}     //*[@id="block_top_menu"]/ul/li[1]/ul/li[1]/ul/li[2]/a

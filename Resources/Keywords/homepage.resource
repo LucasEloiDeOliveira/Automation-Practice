@@ -31,3 +31,7 @@ Clicar no Menu Women
 Clicar no Submenu Women>T-shirts
     Posicionar Mouse    ${menu_women}
     Clicar              ${women_submenu_tshirts}
+
+Clicar no Submenu Women>Blouses
+    Posicionar Mouse    ${menu_women}
+    Clicar              ${women_submenu_blouses}
