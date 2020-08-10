@@ -1,5 +1,6 @@
 *** Settings ***
-Resource    ${CURDIR}../Resource/main.resource
+Resource    ${CURDIR}../Resources/main.resource
+Resource    ${CURDIR}../Resources/contact_us.resource
 
 ***Keywords***
 #### QUANDO

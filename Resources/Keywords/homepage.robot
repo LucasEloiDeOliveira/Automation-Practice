@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ${CURDIR}../Resource/main.resource
+Resource    ${CURDIR}../Resources/main.resource
 
 *** Variable ***
 ${browser}    chrome

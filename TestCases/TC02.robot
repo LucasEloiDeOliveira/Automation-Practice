@@ -1,11 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Base/base.robot
-Resource    ../Steps/homepage.robot 
-Resource    ../Steps/contact_us.robot    
-
-Suite Teardown    Fechar Navegador
+Resource    ${CURDIR}../Resources/main.resource    
 
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no link Contact us está direcionando para a tela CUSTOMER SERVICE - CONTACT US e que todos os objetos da tela foram carregados

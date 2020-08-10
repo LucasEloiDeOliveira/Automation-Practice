@@ -1,10 +1,6 @@
 *** Settings ***
-Library    SeleniumLibrary
-
-Resource    ../Base/base.robot
-Resource    ../Steps/homepage.robot    
-
-Suite Teardown    Fechar Navegador
+Resource    ${EXECDIR}../Resources/main.resource
+Resource    ${CURDIR}../Resources/Steps/Step_homepage.resource
 
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no header está direcionando para a homepage
