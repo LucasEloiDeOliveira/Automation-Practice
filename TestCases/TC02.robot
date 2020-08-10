@@ -1,5 +1,6 @@
 *** Settings ***
-Resource    ${CURDIR}../Resources/main.resource    
+Resource          ../Resources/main.resource
+Suite Teardown    Fechar Navegador  
 
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no link Contact us está direcionando para a tela CUSTOMER SERVICE - CONTACT US e que todos os objetos da tela foram carregados

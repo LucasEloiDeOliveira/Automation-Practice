@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200809 21:12:48.112" rpa="false">
-<suite id="s1" name="TC01" source="C:\Projetos\Automation Practice\TestCases\TC01.robot">
-<test id="s1-t1" name="Cenário 01: Garantir que ao clicar no header está direcionando para a homepage">
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200809 22:02:20.875" rpa="false">
+<suite id="s1" name="TC02" source="C:\Projetos\Automation Practice\TestCases\TC02.robot">
+<test id="s1-t1" name="Cenário 01: Garantir que ao clicar no link Contact us está direcionando para a tela CUSTOMER SERVICE - CONTACT US e que todos os objetos da tela foram carregados">
 <kw name="Dado que esteja na tela HOME do site Automation Practice">
-<msg timestamp="20200809 21:12:48.143" level="FAIL">No keyword with name 'Dado que esteja na tela HOME do site Automation Practice' found.</msg>
-<status status="FAIL" starttime="20200809 21:12:48.143" endtime="20200809 21:12:48.143"></status>
+<msg timestamp="20200809 22:02:21.077" level="FAIL">No keyword with name 'Dado que esteja na tela HOME do site Automation Practice' found. Did you mean:
+    Step_homepage.Que Esteja Na Tela HOME Do Site Automation Practice</msg>
+<status status="FAIL" starttime="20200809 22:02:21.077" endtime="20200809 22:02:21.077"></status>
 </kw>
-<status status="FAIL" starttime="20200809 21:12:48.141" endtime="20200809 21:12:48.144" critical="yes">No keyword with name 'Dado que esteja na tela HOME do site Automation Practice' found.</status>
+<status status="FAIL" starttime="20200809 22:02:21.074" endtime="20200809 22:02:21.078" critical="yes">No keyword with name 'Dado que esteja na tela HOME do site Automation Practice' found. Did you mean:
+    Step_homepage.Que Esteja Na Tela HOME Do Site Automation Practice</status>
 </test>
-<status status="FAIL" starttime="20200809 21:12:48.114" endtime="20200809 21:12:48.152"></status>
+<kw name="Fechar Navegador" type="teardown">
+<msg timestamp="20200809 22:02:21.084" level="FAIL">No keyword with name 'Fechar Navegador' found.</msg>
+<status status="FAIL" starttime="20200809 22:02:21.084" endtime="20200809 22:02:21.084">No keyword with name 'Fechar Navegador' found.</status>
+</kw>
+<status status="FAIL" starttime="20200809 22:02:20.876" endtime="20200809 22:02:21.084">Suite teardown failed:
+No keyword with name 'Fechar Navegador' found.</status>
 </suite>
 <statistics>
 <total>
@@ -18,10 +25,13 @@
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" id="s1" name="TC01">TC01</stat>
+<stat pass="0" fail="1" id="s1" name="TC02">TC02</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20200809 21:12:48.139" level="ERROR">Error in file 'C:\Projetos\Automation Practice\TestCases\TC01.robot' on line 2: Resource file 'C:\Projetos\Automation Practice\TestCases..\Resources\main.resource' does not exist.</msg>
+<msg timestamp="20200809 22:02:21.061" level="ERROR">Error in file 'C:\Projetos\Automation Practice\Resources\Steps\Step_homepage.resource' on line 2: Resource file '..\Resources\main.resource' does not exist.</msg>
+<msg timestamp="20200809 22:02:21.065" level="ERROR">Error in file 'C:\Projetos\Automation Practice\Resources\Steps\Step_contact_us.resource' on line 2: Resource file '..\Resources\main.resource' does not exist.</msg>
+<msg timestamp="20200809 22:02:21.067" level="ERROR">Error in file 'C:\Projetos\Automation Practice\Resources\Steps\Step_contact_us.resource' on line 3: Resource file '..\Resources\contact_us.resource' does not exist.</msg>
+<msg timestamp="20200809 22:02:21.071" level="ERROR">Error in file 'C:\Projetos\Automation Practice\Resources\Steps\Step_sign_in.resource' on line 2: Resource file '..\Resources\main.resource' does not exist.</msg>
 </errors>
 </robot>

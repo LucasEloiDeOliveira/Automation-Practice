@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ${CURDIR}../Resources/main.resource
+Resource    ../Resources/main.resource
 
 *** Keywords ***
 
