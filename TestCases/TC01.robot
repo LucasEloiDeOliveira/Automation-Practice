@@ -1,6 +1,5 @@
 *** Settings ***
-Resource    ${EXECDIR}../Resources/main.resource
-Resource    ${CURDIR}../Resources/Steps/Step_homepage.resource
+Resource    ${CURDIR}../Resources/main.resource
 
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no header está direcionando para a homepage
