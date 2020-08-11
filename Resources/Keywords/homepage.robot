@@ -23,6 +23,9 @@ Clicar no Logo
 Clicar no Menu Women
     Clicar    ${menu_women}
 
+Clicar em T-shirts
+    Clicar    ${menu_tshirts}
+
 Clicar no Submenu Women>T-shirts
     Posicionar Mouse    ${menu_women}
     Clicar              ${women_submenu_tshirts}

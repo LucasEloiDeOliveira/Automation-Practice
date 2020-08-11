@@ -1,9 +1,6 @@
 *** Settings ***
 Resource    ${EXECDIR}\\Resources\\main.resource
 
-Test Setup       Abrir Navegador     url=about:blank    browser=chrome
-Test Teardown    Fechar Navegador
-
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no menu Dresses -> Summer Dresses está direcionando para a tela CATALOG e que todos os produtos listados são Summer Dresses
     Dado que esteja na tela HOME do site Automation Practice 

@@ -34,6 +34,17 @@ Verificar Texto do Elemento
     Wait Until Element Is Visible    ${element}    5
     Element Should Contain           ${element}    ${text}
 
+Verificar Elemento
+    [Arguments]    ${element} 
+
+    Wait Until Element Is Visible    ${element}    5
+
+Verificar Status da Classe do elemento
+    [Arguments]    ${element}    ${text}
+
+    Wait Until Element Is Visible    ${element}               5
+    ${class} =                       Get Element Attribute    ${element}    class
+    Should Be Equal                  ${class}                 ${text}
 
 Clicar
     [Arguments]    ${element}

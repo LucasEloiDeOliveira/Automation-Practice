@@ -10,7 +10,22 @@ A tela de t-shirts de ser mostrada
 A tela de catalogo de ser mostrada
     Verificar texto Catalog
 
+### QUANDO
+Clicar no menu T-shirts
+    Clicar em T-shirts
+
 ### AND
 
 Todos os produtos listados são T-shirts femininas
     Verificar Women>T-shirts
+
+Todos os produtos listados são T-shirts
+    Verificar texto T-shirts
+
+Ao selecionar View Grid os produtos são exibidos em Grid
+    Clicar no icone Grid
+    Verificar selecão de Grid
+
+Ao selecionar View List os produtos são exibidos em List
+    Clicar no icone List
+    Verificar selecão de List
