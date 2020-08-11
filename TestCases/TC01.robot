@@ -1,6 +1,5 @@
 *** Settings ***
-Resource          ../Resources/main.resource
-Suite Teardown    Fechar Navegador
+Resource    ${EXECDIR}\\Resources\\main.resource
 
 *** Test Cases ***
 Cenário 01: Garantir que ao clicar no header está direcionando para a homepage
