@@ -1,5 +1,6 @@
 ***Settings***
 Library    SeleniumLibrary
+# Library    Selenium2Library
 
 ### Pages
 Resource    ../Resources/Pages/Page_homepage.resource

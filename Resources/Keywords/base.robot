@@ -64,5 +64,22 @@ Verificar Foco
     Wait Until Element Is Visible    ${element}    5
     Element Should Be Focused        ${element}
 
+Selecionar Opcao no combo
+    [Arguments]                  ${element}    ${option}
+    Select From List By Index    ${element}    ${option}
+
+Verificar Exibicao da Imagem
+    [Arguments]                      ${element}
+    Wait Until Element Is Visible    ${element}    5    Imagem não visível
+
+Verificar Nao Exibicao da Imagem
+    [Arguments]                          ${element}
+    Wait Until Element Is Not Visible    ${element}    5    Imagem visível
+
+Scroll Page To Location
+    [Arguments]           ${x_location}                                   ${y_location}
+    Execute JavaScript    window.scrollTo(${x_location},${y_location})
+    Sleep                 2
+
 Fechar Navegador
     Close Browser

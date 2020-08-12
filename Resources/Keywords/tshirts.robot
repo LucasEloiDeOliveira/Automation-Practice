@@ -31,3 +31,15 @@ Verificar selecão de Grid
 Verificar selecão de List
     Verificar Elemento                        ${products_list_grid}
     Verificar Status da Classe do elemento    ${products_list_grid}    product_list row list
+
+Verificar exibicao do combo
+    Scroll Page To Location    0    300
+    # Verificar Elemento         ${combo_sort_by}
+
+Selecionar Sort by Price: Lowest first
+    Selecionar Opcao no combo    ${combo_sort_by}     1
+    Verificar Elemento           ${img_carregando}
+
+Verificar ordenacao dos produtos
+    Verificar Elemento                  ${img_carregando}
+    Verificar Nao Exibicao da Imagem    ${img_carregando} 

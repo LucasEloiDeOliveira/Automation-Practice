@@ -29,3 +29,8 @@ Ao selecionar View Grid os produtos são exibidos em Grid
 Ao selecionar View List os produtos são exibidos em List
     Clicar no icone List
     Verificar selecão de List
+
+Ao utilizar o filtro os produtos são ordenados adequadamente
+    Verificar exibicao do combo
+    Selecionar Sort by Price: Lowest first
+    Verificar ordenacao dos produtos
