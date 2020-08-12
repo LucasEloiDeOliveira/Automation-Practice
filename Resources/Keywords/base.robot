@@ -72,14 +72,21 @@ Verificar Exibicao da Imagem
     [Arguments]                      ${element}
     Wait Until Element Is Visible    ${element}    5    Imagem não visível
 
-Verificar Nao Exibicao da Imagem
+Verificar Nao Exibicao da Imagem de Carregamento
     [Arguments]                          ${element}
-    Wait Until Element Is Not Visible    ${element}    5    Imagem visível
+    Wait Until Element Is Not Visible    ${element}    5    Erro no Carregamento do Filtro
 
 Scroll Page To Location
     [Arguments]           ${x_location}                                   ${y_location}
     Execute JavaScript    window.scrollTo(${x_location},${y_location})
     Sleep                 2
+
+Verificar valor correto com os descontos
+    [Arguments] ${value}    ${old_value}    ${percentage}
+
+    ${result} = Evaluate    (${percentage}*${old_value}) / 100.0
+    Should Be Equal         ${value}                                ${result}
+
 
 Fechar Navegador
     Close Browser

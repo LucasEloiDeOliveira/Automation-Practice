@@ -34,7 +34,6 @@ Verificar selecão de List
 
 Verificar exibicao do combo
     Scroll Page To Location    0    300
-    # Verificar Elemento         ${combo_sort_by}
 
 Selecionar Sort by Price: Lowest first
     Selecionar Opcao no combo    ${combo_sort_by}     1
@@ -42,4 +41,4 @@ Selecionar Sort by Price: Lowest first
 
 Verificar ordenacao dos produtos
     Verificar Elemento                  ${img_carregando}
-    Verificar Nao Exibicao da Imagem    ${img_carregando} 
+    Verificar Nao Exibicao da Imagem de Carregamento   ${img_carregando} 
