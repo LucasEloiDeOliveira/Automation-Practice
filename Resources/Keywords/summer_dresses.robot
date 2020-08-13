@@ -17,4 +17,7 @@ Verificar Women>Summer Dresses
     Verificar Texto do Elemento    ${menu_bar}    Summer Dresses
 
 Verificar valor correto do produto com desconto
-    Verificar valor correto com os descontos  ${valor_produto}  ${valor_antigo}  ${desconto}
+    Scroll Page To Location                     0                   600
+    Verificar Elemento                          ${icon_list}
+    Clicar                                      ${icon_list} 
+    Verificar valor correto com os descontos    ${valor_produto}    ${valor_antigo}    ${desconto}

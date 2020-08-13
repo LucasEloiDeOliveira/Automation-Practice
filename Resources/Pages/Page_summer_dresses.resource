@@ -3,6 +3,6 @@
 ${title}             header
 ${title_catalogo}    //*[@id="layered_block_left"]/p
 ${menu_bar}          //*[@id="columns"]/div[1]
-${valor_produto}
-${valor_antigo}
-${desconto}
+${valor_produto}     //*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[1]/span[1]
+${valor_antigo}      //*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[1]/span[2]
+${desconto}          //*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[1]/span[3]

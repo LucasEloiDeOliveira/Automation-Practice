@@ -1,5 +1,7 @@
 ***Settings***
-Library    SeleniumLibrary
+Library      SeleniumLibrary
+Library      DebugLibrary
+Library      String
 # Library    Selenium2Library
 
 ### Pages

@@ -82,11 +82,26 @@ Scroll Page To Location
     Sleep                 2
 
 Verificar valor correto com os descontos
-    [Arguments] ${value}    ${old_value}    ${percentage}
+    [Arguments]    ${value}    ${old_value}    ${reduced}
 
-    ${result} = Evaluate    (${percentage}*${old_value}) / 100.0
-    Should Be Equal         ${value}                                ${result}
+    ${value} =    Get Text             ${value}    
+    ${value} =    Remove String        ${value}    $
+    ${value} =    Convert To Number    ${value}
 
+    ${old_value} =    Get Text             ${old_value}    
+    ${old_value} =    Remove String        ${old_value}    $
+    ${old_value} =    Convert To Number    ${old_value}
+
+    ${reduced} =    Get Text             ${reduced}    
+    ${reduced} =    Remove String        ${reduced}    -    %
+    ${reduced} =    Convert To Number    ${reduced}
+
+    ${result} =    Evaluate                          ${reduced} * ${old_value}
+    ${result} =    Evaluate                          ${result} / 100
+    ${result} =    Evaluate                          ${old_value} - ${result}
+    ${result} =    Convert To Number	${result}	2	
+
+    Should Be Equal As Numbers    ${value}    ${result}
 
 Fechar Navegador
     Close Browser
