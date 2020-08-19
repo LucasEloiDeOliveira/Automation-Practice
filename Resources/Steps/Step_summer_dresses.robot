@@ -15,5 +15,8 @@ A tela de catalogo de ser mostrada
 Todos os produtos listados são Summer Dresses femininas
     Verificar Women>Summer Dresses
 
-O valor do produto com desconto está correto
-    Verificar valor correto do produto com desconto
+O valor do produto com desconto está correto 5%
+    Verificar valor correto do produto com desconto 5%
+
+O valor do produto com desconto está correto 20%
+    Verificar valor correto do produto com desconto 20%

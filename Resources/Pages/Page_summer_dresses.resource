@@ -10,3 +10,11 @@ ${desconto}          //*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[1]
 ${valor_produto20}    //*[@id="center_column"]/ul/li[3]/div/div/div[3]/div/div[1]/span[1]
 ${valor_antigo20}     //*[@id="center_column"]/ul/li[3]/div/div/div[3]/div/div[1]/span[2]
 ${desconto20}         //*[@id="center_column"]/ul/li[3]/div/div/div[3]/div/div[1]/span[3]
+
+${product1}    //*[@id="center_column"]/ul/li[1]/div/div[2]/h5/a
+${product2}    //*[@id="center_column"]/ul/li[3]/div/div[2]/h5/a
+
+${add_comparison_1}    //*[@id="center_column"]/ul/li[1]/div/div[3]/div[2]/a
+${add_comparison_2}    //*[@id="center_column"]/ul/li[3]/div/div[3]/div[2]/a
+
+${button_compare}    //*[@id="center_column"]/div[3]/div/form/button

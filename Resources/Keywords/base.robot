@@ -103,5 +103,32 @@ Verificar valor correto com os descontos
 
     Should Be Equal As Numbers    ${value}    ${result}
 
+Comparar produtos
+    [Arguments]    ${prod1}    ${prod2}    ${comp1}    ${comp2}    ${button_add_comp1}    ${button_add_comp2}
+
+    Mouse Over       ${prod1}
+    ${prod1} =       Get Text               ${prod1}
+    Click Element    ${button_add_comp1}
+
+    Sleep    3
+
+    Mouse Over       ${prod2}
+    ${prod2} =       Get Text               ${prod2}
+    Click Element    ${button_add_comp2}
+
+    Wait Until Element Is Visible    ${button_compare}    5    Botao não visivel
+    Click Element                    ${button_compare}
+
+    Execute JavaScript    window.scrollTo(0,300)
+
+    Mouse Over    ${comp1}
+    ${comp1} =    Get Text    ${comp1}
+
+    Mouse Over    ${comp2}
+    ${comp2} =    Get Text    ${comp2}
+
+    Should Be Equal    ${prod1}    ${comp1}
+    Should Be Equal    ${prod2}    ${comp2}
+
 Fechar Navegador
     Close Browser

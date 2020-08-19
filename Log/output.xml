@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200817 09:27:11.213" rpa="false">
-<suite id="s1" name="TC18" source="C:\Projetos\Automation_Practice\TestCases\TC18.robot">
-<test id="s1-t1" name="Cenário 01: Garantir que o desconto em % é aplicado em cima do valor taxado e o valor com desconto é equivalente a % de desconto exibida">
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200819 16:00:25.580" rpa="false">
+<suite id="s1" name="TC19" source="C:\Projetos\Automation_Practice\TestCases\TC19.robot">
+<test id="s1-t1" name="Cenário 01: Garantir que ao adicionar duas peças diferentes no link +Add to compare e clicar no botão Compare, que esses produtos serão carregados na tela PRODUCT COMPARISON, que seus dados são compatíveis com o da tela anterior e que os dados comparados são diferentes de um produto para o outro">
 <kw name="Abrir Navegador" library="base" type="setup">
 <arguments>
 <arg>url=about:blank</arg>
@@ -13,14 +13,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20200817 09:27:11.543" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200817 09:27:11.543" endtime="20200817 09:27:15.657"></status>
+<msg timestamp="20200819 16:00:25.901" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200819 16:00:25.901" endtime="20200819 16:00:29.036"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200817 09:27:15.658" endtime="20200817 09:27:17.774"></status>
+<status status="PASS" starttime="20200819 16:00:29.037" endtime="20200819 16:00:31.162"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:11.542" endtime="20200817 09:27:17.774"></status>
+<status status="PASS" starttime="20200819 16:00:25.900" endtime="20200819 16:00:31.163"></status>
 </kw>
 <kw name="Dado que esteja na tela HOME do site Automation Practice" library="base">
 <kw name="Run Keyword" library="BuiltIn">
@@ -35,16 +35,16 @@
 <arguments>
 <arg>http://automationpractice.com/</arg>
 </arguments>
-<msg timestamp="20200817 09:27:17.776" level="INFO">Opening url 'http://automationpractice.com/'</msg>
-<status status="PASS" starttime="20200817 09:27:17.776" endtime="20200817 09:27:31.235"></status>
+<msg timestamp="20200819 16:00:31.171" level="INFO">Opening url 'http://automationpractice.com/'</msg>
+<status status="PASS" starttime="20200819 16:00:31.171" endtime="20200819 16:00:36.244"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:17.776" endtime="20200817 09:27:31.235"></status>
+<status status="PASS" starttime="20200819 16:00:31.170" endtime="20200819 16:00:36.244"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:17.776" endtime="20200817 09:27:31.235"></status>
+<status status="PASS" starttime="20200819 16:00:31.169" endtime="20200819 16:00:36.244"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:17.775" endtime="20200817 09:27:31.235"></status>
+<status status="PASS" starttime="20200819 16:00:31.168" endtime="20200819 16:00:36.244"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:17.775" endtime="20200817 09:27:31.235"></status>
+<status status="PASS" starttime="20200819 16:00:31.166" endtime="20200819 16:00:36.244"></status>
 </kw>
 <kw name="Quando clicar no Submenu Dresses&gt;Summer Dresses" library="base">
 <kw name="Run Keyword" library="BuiltIn">
@@ -63,17 +63,17 @@
 <arg>${element}</arg>
 <arg>5</arg>
 </arguments>
-<status status="PASS" starttime="20200817 09:27:31.238" endtime="20200817 09:27:31.262"></status>
+<status status="PASS" starttime="20200819 16:00:36.248" endtime="20200819 16:00:36.276"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20200817 09:27:31.263" level="INFO">Simulating Mouse Over on element '//*[@id="block_top_menu"]/ul/li[2]/a'.</msg>
-<status status="PASS" starttime="20200817 09:27:31.263" endtime="20200817 09:27:31.533"></status>
+<msg timestamp="20200819 16:00:36.276" level="INFO">Simulating Mouse Over on element '//*[@id="block_top_menu"]/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:36.276" endtime="20200819 16:00:36.544"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:31.237" endtime="20200817 09:27:31.533"></status>
+<status status="PASS" starttime="20200819 16:00:36.247" endtime="20200819 16:00:36.544"></status>
 </kw>
 <kw name="Clicar" library="base">
 <arguments>
@@ -85,23 +85,23 @@
 <arg>${element}</arg>
 <arg>5</arg>
 </arguments>
-<status status="PASS" starttime="20200817 09:27:31.534" endtime="20200817 09:27:31.558"></status>
+<status status="PASS" starttime="20200819 16:00:36.545" endtime="20200819 16:00:36.567"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20200817 09:27:31.558" level="INFO">Clicking element '//*[@id="block_top_menu"]/ul/li[2]/ul/li[3]/a'.</msg>
-<status status="PASS" starttime="20200817 09:27:31.558" endtime="20200817 09:27:37.026"></status>
+<msg timestamp="20200819 16:00:36.568" level="INFO">Clicking element '//*[@id="block_top_menu"]/ul/li[2]/ul/li[3]/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:36.568" endtime="20200819 16:00:37.978"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:31.533" endtime="20200817 09:27:37.027"></status>
+<status status="PASS" starttime="20200819 16:00:36.544" endtime="20200819 16:00:37.978"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:31.237" endtime="20200817 09:27:37.027"></status>
+<status status="PASS" starttime="20200819 16:00:36.246" endtime="20200819 16:00:37.978"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:31.237" endtime="20200817 09:27:37.027"></status>
+<status status="PASS" starttime="20200819 16:00:36.246" endtime="20200819 16:00:37.978"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:31.236" endtime="20200817 09:27:37.027"></status>
+<status status="PASS" starttime="20200819 16:00:36.245" endtime="20200819 16:00:37.978"></status>
 </kw>
 <kw name="Então a tela de Summer Dresses de ser mostrada" library="base">
 <kw name="Run Keyword" library="BuiltIn">
@@ -122,264 +122,231 @@
 <arg>${element}</arg>
 <arg>5</arg>
 </arguments>
-<status status="PASS" starttime="20200817 09:27:37.032" endtime="20200817 09:27:37.055"></status>
+<status status="PASS" starttime="20200819 16:00:37.983" endtime="20200819 16:00:38.522"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that the current page title equals ``title``.</doc>
 <arguments>
 <arg>${text}</arg>
 </arguments>
-<msg timestamp="20200817 09:27:37.060" level="INFO">Page title is 'Summer Dresses - My Store'.</msg>
-<status status="PASS" starttime="20200817 09:27:37.055" endtime="20200817 09:27:37.060"></status>
+<msg timestamp="20200819 16:00:38.536" level="INFO">Page title is 'Summer Dresses - My Store'.</msg>
+<status status="PASS" starttime="20200819 16:00:38.523" endtime="20200819 16:00:38.536"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.030" endtime="20200817 09:27:37.061"></status>
+<status status="PASS" starttime="20200819 16:00:37.982" endtime="20200819 16:00:38.536"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.030" endtime="20200817 09:27:37.061"></status>
+<status status="PASS" starttime="20200819 16:00:37.981" endtime="20200819 16:00:38.536"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.029" endtime="20200817 09:27:37.061"></status>
+<status status="PASS" starttime="20200819 16:00:37.981" endtime="20200819 16:00:38.536"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.029" endtime="20200817 09:27:37.061"></status>
+<status status="PASS" starttime="20200819 16:00:37.980" endtime="20200819 16:00:38.536"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.028" endtime="20200817 09:27:37.061"></status>
+<status status="PASS" starttime="20200819 16:00:37.979" endtime="20200819 16:00:38.536"></status>
 </kw>
-<kw name="Verificar valor correto do produto com desconto 20%" library="summer_dresses">
+<kw name="E os dados mostrados na tela são equivalentes aos produtos selecionados na tela anterior" library="base">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${keyword}</arg>
+</arguments>
+<kw name="Os dados mostrados na tela são equivalentes aos produtos selecionados na tela anterior" library="Step_product_comparison">
+<kw name="Comparar os produtos" library="product_comparison">
 <kw name="Scroll Page To Location" library="base">
 <arguments>
 <arg>0</arg>
-<arg>1000</arg>
+<arg>900</arg>
 </arguments>
 <kw name="Execute Javascript" library="SeleniumLibrary">
 <doc>Executes the given JavaScript code with possible arguments.</doc>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200817 09:27:37.063" level="INFO">Executing JavaScript:
-window.scrollTo(0,1000)
+<msg timestamp="20200819 16:00:38.540" level="INFO">Executing JavaScript:
+window.scrollTo(0,900)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200817 09:27:37.062" endtime="20200817 09:27:37.068"></status>
+<status status="PASS" starttime="20200819 16:00:38.539" endtime="20200819 16:00:38.546"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2</arg>
 </arguments>
-<msg timestamp="20200817 09:27:39.070" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200817 09:27:37.068" endtime="20200817 09:27:39.070"></status>
+<msg timestamp="20200819 16:00:40.548" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200819 16:00:38.546" endtime="20200819 16:00:40.548"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:37.062" endtime="20200817 09:27:39.070"></status>
+<status status="PASS" starttime="20200819 16:00:38.539" endtime="20200819 16:00:40.548"></status>
 </kw>
-<kw name="Verificar Elemento" library="base">
+<kw name="Comparar produtos" library="base">
 <arguments>
-<arg>${icon_list}</arg>
+<arg>${product1}</arg>
+<arg>${product2}</arg>
+<arg>${product_comp_1}</arg>
+<arg>${product_comp_2}</arg>
+<arg>${add_comparison_1}</arg>
+<arg>${add_comparison_2}</arg>
 </arguments>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until the element ``locator`` is visible.</doc>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
-<arg>${element}</arg>
-<arg>5</arg>
+<arg>${prod1}</arg>
 </arguments>
-<status status="PASS" starttime="20200817 09:27:39.071" endtime="20200817 09:27:39.092"></status>
+<msg timestamp="20200819 16:00:40.549" level="INFO">Simulating Mouse Over on element '//*[@id="center_column"]/ul/li[1]/div/div[2]/h5/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:40.549" endtime="20200819 16:00:40.828"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:39.070" endtime="20200817 09:27:39.092"></status>
-</kw>
-<kw name="Clicar" library="base">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
 <arguments>
-<arg>${icon_list}</arg>
+<arg>${prod1}</arg>
 </arguments>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until the element ``locator`` is visible.</doc>
-<arguments>
-<arg>${element}</arg>
-<arg>5</arg>
-</arguments>
-<status status="PASS" starttime="20200817 09:27:39.093" endtime="20200817 09:27:39.109"></status>
+<assign>
+<var>${prod1}</var>
+</assign>
+<msg timestamp="20200819 16:00:40.873" level="INFO">${prod1} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200819 16:00:40.829" endtime="20200819 16:00:40.873"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${element}</arg>
+<arg>${button_add_comp1}</arg>
 </arguments>
-<msg timestamp="20200817 09:27:39.109" level="INFO">Clicking element '//*[@id="list"]'.</msg>
-<status status="PASS" starttime="20200817 09:27:39.109" endtime="20200817 09:27:39.175"></status>
+<msg timestamp="20200819 16:00:40.874" level="INFO">Clicking element '//*[@id="center_column"]/ul/li[1]/div/div[3]/div[2]/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:40.873" endtime="20200819 16:00:40.922"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:39.093" endtime="20200817 09:27:39.176"></status>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200819 16:00:43.923" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200819 16:00:40.922" endtime="20200819 16:00:43.923"></status>
 </kw>
-<kw name="Verificar valor correto com os descontos" library="base">
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
-<arg>${valor_produto20}</arg>
-<arg>${valor_antigo20}</arg>
-<arg>${desconto20}</arg>
+<arg>${prod2}</arg>
 </arguments>
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>${value}</arg>
-</arguments>
-<assign>
-<var>${value}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.200" level="INFO">${value} = $16.40</msg>
-<status status="PASS" starttime="20200817 09:27:39.176" endtime="20200817 09:27:39.200"></status>
-</kw>
-<kw name="Remove String" library="String">
-<doc>Removes all ``removables`` from the given ``string``.</doc>
-<arguments>
-<arg>${value}</arg>
-<arg>$</arg>
-</arguments>
-<assign>
-<var>${value}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.200" level="INFO">${value} = 16.40</msg>
-<status status="PASS" starttime="20200817 09:27:39.200" endtime="20200817 09:27:39.200"></status>
-</kw>
-<kw name="Convert To Number" library="BuiltIn">
-<doc>Converts the given item to a floating point number.</doc>
-<arguments>
-<arg>${value}</arg>
-</arguments>
-<assign>
-<var>${value}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.200" level="INFO">${value} = 16.4</msg>
-<status status="PASS" starttime="20200817 09:27:39.200" endtime="20200817 09:27:39.201"></status>
+<msg timestamp="20200819 16:00:43.925" level="INFO">Simulating Mouse Over on element '//*[@id="center_column"]/ul/li[3]/div/div[2]/h5/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:43.924" endtime="20200819 16:00:44.225"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
 <arguments>
-<arg>${old_value}</arg>
+<arg>${prod2}</arg>
 </arguments>
 <assign>
-<var>${old_value}</var>
+<var>${prod2}</var>
 </assign>
-<msg timestamp="20200817 09:27:39.223" level="INFO">${old_value} = $20.50</msg>
-<status status="PASS" starttime="20200817 09:27:39.201" endtime="20200817 09:27:39.223"></status>
+<msg timestamp="20200819 16:00:44.246" level="INFO">${prod2} = Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200819 16:00:44.225" endtime="20200819 16:00:44.246"></status>
 </kw>
-<kw name="Remove String" library="String">
-<doc>Removes all ``removables`` from the given ``string``.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${old_value}</arg>
-<arg>$</arg>
+<arg>${button_add_comp2}</arg>
 </arguments>
-<assign>
-<var>${old_value}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.223" level="INFO">${old_value} = 20.50</msg>
-<status status="PASS" starttime="20200817 09:27:39.223" endtime="20200817 09:27:39.223"></status>
+<msg timestamp="20200819 16:00:44.247" level="INFO">Clicking element '//*[@id="center_column"]/ul/li[3]/div/div[3]/div[2]/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:44.246" endtime="20200819 16:00:44.290"></status>
 </kw>
-<kw name="Convert To Number" library="BuiltIn">
-<doc>Converts the given item to a floating point number.</doc>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
-<arg>${old_value}</arg>
+<arg>${button_compare}</arg>
+<arg>5</arg>
+<arg>Botao não visivel</arg>
 </arguments>
-<assign>
-<var>${old_value}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.224" level="INFO">${old_value} = 20.5</msg>
-<status status="PASS" starttime="20200817 09:27:39.223" endtime="20200817 09:27:39.224"></status>
+<status status="PASS" starttime="20200819 16:00:44.290" endtime="20200819 16:00:44.309"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${button_compare}</arg>
+</arguments>
+<msg timestamp="20200819 16:00:44.309" level="INFO">Clicking element '//*[@id="center_column"]/div[3]/div/form/button'.</msg>
+<status status="PASS" starttime="20200819 16:00:44.309" endtime="20200819 16:00:48.299"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,300)</arg>
+</arguments>
+<msg timestamp="20200819 16:00:48.299" level="INFO">Executing JavaScript:
+window.scrollTo(0,300)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200819 16:00:48.299" endtime="20200819 16:00:48.308"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<arguments>
+<arg>${comp1}</arg>
+</arguments>
+<msg timestamp="20200819 16:00:48.308" level="INFO">Simulating Mouse Over on element '//*[@id="product_comparison"]/tbody/tr[1]/td[2]/h5/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:48.308" endtime="20200819 16:00:48.582"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
 <arguments>
-<arg>${reduced}</arg>
+<arg>${comp1}</arg>
 </arguments>
 <assign>
-<var>${reduced}</var>
+<var>${comp1}</var>
 </assign>
-<msg timestamp="20200817 09:27:39.245" level="INFO">${reduced} = -20%</msg>
-<status status="PASS" starttime="20200817 09:27:39.224" endtime="20200817 09:27:39.245"></status>
+<msg timestamp="20200819 16:00:48.603" level="INFO">${comp1} = Printed Summer Dress</msg>
+<status status="PASS" starttime="20200819 16:00:48.582" endtime="20200819 16:00:48.603"></status>
 </kw>
-<kw name="Remove String" library="String">
-<doc>Removes all ``removables`` from the given ``string``.</doc>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
 <arguments>
-<arg>${reduced}</arg>
-<arg>-</arg>
-<arg>%</arg>
+<arg>${comp2}</arg>
+</arguments>
+<msg timestamp="20200819 16:00:48.604" level="INFO">Simulating Mouse Over on element '//*[@id="product_comparison"]/tbody/tr[1]/td[3]/h5/a'.</msg>
+<status status="PASS" starttime="20200819 16:00:48.603" endtime="20200819 16:00:48.876"></status>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>${comp2}</arg>
 </arguments>
 <assign>
-<var>${reduced}</var>
+<var>${comp2}</var>
 </assign>
-<msg timestamp="20200817 09:27:39.246" level="INFO">${reduced} = 20</msg>
-<status status="PASS" starttime="20200817 09:27:39.245" endtime="20200817 09:27:39.246"></status>
+<msg timestamp="20200819 16:00:48.904" level="INFO">${comp2} = Printed Chiffon Dress</msg>
+<status status="PASS" starttime="20200819 16:00:48.877" endtime="20200819 16:00:48.904"></status>
 </kw>
-<kw name="Convert To Number" library="BuiltIn">
-<doc>Converts the given item to a floating point number.</doc>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
 <arguments>
-<arg>${reduced}</arg>
+<arg>${prod1}</arg>
+<arg>${comp1}</arg>
 </arguments>
-<assign>
-<var>${reduced}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.246" level="INFO">${reduced} = 20.0</msg>
-<status status="PASS" starttime="20200817 09:27:39.246" endtime="20200817 09:27:39.246"></status>
+<status status="PASS" starttime="20200819 16:00:48.904" endtime="20200819 16:00:48.904"></status>
 </kw>
-<kw name="Evaluate" library="BuiltIn">
-<doc>Evaluates the given expression in Python and returns the result.</doc>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
 <arguments>
-<arg>${reduced} * ${old_value}</arg>
+<arg>${prod2}</arg>
+<arg>${comp2}</arg>
 </arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.247" level="INFO">${result} = 410.0</msg>
-<status status="PASS" starttime="20200817 09:27:39.246" endtime="20200817 09:27:39.247"></status>
+<status status="PASS" starttime="20200819 16:00:48.905" endtime="20200819 16:00:48.905"></status>
 </kw>
-<kw name="Evaluate" library="BuiltIn">
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<arguments>
-<arg>${result} / 100</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.248" level="INFO">${result} = 4.1</msg>
-<status status="PASS" starttime="20200817 09:27:39.248" endtime="20200817 09:27:39.248"></status>
+<status status="PASS" starttime="20200819 16:00:40.548" endtime="20200819 16:00:48.905"></status>
 </kw>
-<kw name="Evaluate" library="BuiltIn">
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<arguments>
-<arg>${old_value} - ${result}</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.248" level="INFO">${result} = 16.4</msg>
-<status status="PASS" starttime="20200817 09:27:39.248" endtime="20200817 09:27:39.248"></status>
+<status status="PASS" starttime="20200819 16:00:38.538" endtime="20200819 16:00:48.905"></status>
 </kw>
-<kw name="Convert To Number" library="BuiltIn">
-<doc>Converts the given item to a floating point number.</doc>
-<arguments>
-<arg>${result}</arg>
-<arg>2</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20200817 09:27:39.249" level="INFO">${result} = 16.4</msg>
-<status status="PASS" starttime="20200817 09:27:39.248" endtime="20200817 09:27:39.249"></status>
+<status status="PASS" starttime="20200819 16:00:38.538" endtime="20200819 16:00:48.905"></status>
 </kw>
-<kw name="Should Be Equal As Numbers" library="BuiltIn">
-<doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<arguments>
-<arg>${value}</arg>
-<arg>${result}</arg>
-</arguments>
-<status status="PASS" starttime="20200817 09:27:39.249" endtime="20200817 09:27:39.249"></status>
+<status status="PASS" starttime="20200819 16:00:38.538" endtime="20200819 16:00:48.905"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:39.176" endtime="20200817 09:27:39.249"></status>
-</kw>
-<status status="PASS" starttime="20200817 09:27:37.062" endtime="20200817 09:27:39.249"></status>
+<status status="PASS" starttime="20200819 16:00:38.537" endtime="20200819 16:00:48.905"></status>
 </kw>
 <kw name="Fechar Navegador" library="base" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200817 09:27:39.251" endtime="20200817 09:27:41.392"></status>
+<status status="PASS" starttime="20200819 16:00:48.906" endtime="20200819 16:00:51.032"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:39.250" endtime="20200817 09:27:41.393"></status>
+<status status="PASS" starttime="20200819 16:00:48.906" endtime="20200819 16:00:51.033"></status>
 </kw>
-<status status="PASS" starttime="20200817 09:27:11.541" endtime="20200817 09:27:41.394" critical="yes"></status>
+<status status="PASS" starttime="20200819 16:00:25.899" endtime="20200819 16:00:51.034" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200817 09:27:11.214" endtime="20200817 09:27:41.397"></status>
+<status status="PASS" starttime="20200819 16:00:25.581" endtime="20200819 16:00:51.045"></status>
 </suite>
 <statistics>
 <total>
@@ -389,7 +356,7 @@ Without any arguments.</msg>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="TC18">TC18</stat>
+<stat pass="1" fail="0" id="s1" name="TC19">TC19</stat>
 </suite>
 </statistics>
 <errors>
