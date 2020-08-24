@@ -17,20 +17,20 @@ Clicar no menu T-shirts
 ### AND
 
 Todos os produtos listados são T-shirts femininas
-    Verificar Women>T-shirts
+    Run Keyword And Ignore Error    Verificar Women>T-shirts
 
 Todos os produtos listados são T-shirts
-    Verificar texto T-shirts
+    Run Keyword And Ignore Error    Verificar texto T-shirts
 
 Ao selecionar View Grid os produtos são exibidos em Grid
-    Clicar no icone Grid
-    Verificar selecão de Grid
+    Run Keyword And Ignore Error    Clicar no icone Grid
+    Run Keyword And Ignore Error    Verificar selecão de Grid
 
 Ao selecionar View List os produtos são exibidos em List
-    Clicar no icone List
-    Verificar selecão de List
+    Run Keyword And Ignore Error    Clicar no icone List
+    Run Keyword And Ignore Error    Verificar selecão de List
 
 Ao utilizar o filtro os produtos são ordenados adequadamente
-    Verificar exibicao do combo
-    Selecionar Sort by Price: Lowest first
-    Verificar ordenacao dos produtos
+    Run Keyword And Ignore Error    Verificar exibicao do combo
+    Run Keyword And Ignore Error    Selecionar Sort by Price: Lowest first
+    Run Keyword And Ignore Error    Verificar ordenacao dos produtos

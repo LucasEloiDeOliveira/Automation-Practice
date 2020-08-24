@@ -68,6 +68,10 @@ Selecionar Opcao no combo
     [Arguments]                  ${element}    ${option}
     Select From List By Index    ${element}    ${option}
 
+Selecionar Opcao no combo label
+    [Arguments]                  ${element}    ${label}
+    Select From List By Label    ${element}    ${label}
+
 Verificar Exibicao da Imagem
     [Arguments]                      ${element}
     Wait Until Element Is Visible    ${element}    5    Imagem não visível
@@ -75,6 +79,10 @@ Verificar Exibicao da Imagem
 Verificar Nao Exibicao da Imagem de Carregamento
     [Arguments]                          ${element}
     Wait Until Element Is Not Visible    ${element}    5    Erro no Carregamento do Filtro
+
+Scroll Elemetn To Location
+    [Arguments]                 ${element}
+    Scroll Element Into View    ${element}
 
 Scroll Page To Location
     [Arguments]           ${x_location}                                   ${y_location}
@@ -129,6 +137,17 @@ Comparar produtos
 
     Should Be Equal    ${prod1}    ${comp1}
     Should Be Equal    ${prod2}    ${comp2}
+
+Selecionar Radio Button
+    Select Radio Button    ${element}    ${text}
+
+Preencher Campo
+    [Arguments]    ${element}    ${text}
+
+    # Scroll Element Into View         ${element}
+    Click Element    ${element}
+    Input text       ${element}    ${text}
+
 
 Fechar Navegador
     Close Browser

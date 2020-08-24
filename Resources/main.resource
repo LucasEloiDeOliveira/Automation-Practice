@@ -1,8 +1,12 @@
 ***Settings***
 Library      SeleniumLibrary
+# Library    Selenium2Library
+# Library    ExtendedSelenium2Library
 Library      DebugLibrary
 Library      String
-# Library    Selenium2Library
+
+### Data
+Resource    ../Resources/data_user.resource
 
 ### Pages
 Resource    ../Resources/Pages/Page_homepage.resource

@@ -13,10 +13,10 @@ A tela de catalogo de ser mostrada
 ### AND
 
 Todos os produtos listados são Summer Dresses femininas
-    Verificar Women>Summer Dresses
+    Run Keyword And Ignore Error    Verificar Women>Summer Dresses
 
 O valor do produto com desconto está correto 5%
-    Verificar valor correto do produto com desconto 5%
+    Run Keyword And Ignore Error    Verificar valor correto do produto com desconto 5%
 
 O valor do produto com desconto está correto 20%
-    Verificar valor correto do produto com desconto 20%
+    Run Keyword And Ignore Error    Verificar valor correto do produto com desconto 20%

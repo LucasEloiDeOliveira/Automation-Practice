@@ -5,15 +5,15 @@ Resource    ${EXECDIR}\\Resources\\main.resource
 
 #### ENTÃO
 A tela de Evening Dresses de ser mostrada
-    Verificar tela Evening Dresses
+    Run Keyword And Ignore Error    Verificar tela Evening Dresses
 
 A tela de catalogo de ser mostrada
-    Verificar texto Catalog
+    Run Keyword And Ignore Error    Verificar texto Catalog
 
 ### AND
 
 Todos os produtos listados são Evening Dresses femininas
-    Verificar Women>Evening Dresses
+    Run Keyword And Ignore Error    Verificar Women>Evening Dresses
 
 # Todos os produtos listados são Evening Dresses femininas
-#     Verificar Dresses>Evening Dresses
+#    Verificar Dresses>Evening Dresses
