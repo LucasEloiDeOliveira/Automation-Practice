@@ -7,7 +7,6 @@ Test Teardown    Fechar Navegador
 *** Test Cases ***
 Cenário 01: Garantir que após criar uma nova conta é possível realizar o login
     Dado que esteja na tela HOME do site Automation Practice 
-    Quando Clicar no link Sign in
-    Então a tela de login de ser mostrada
+    Quando clicar no link Sign in
     E o cadastro de login é realizado
-    E É possivel realizar login com o usuario cadastrado
+    Então é possivel realizar o login com o usuario cadastrado
