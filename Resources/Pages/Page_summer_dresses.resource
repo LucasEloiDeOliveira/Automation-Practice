@@ -17,4 +17,6 @@ ${product2}    //*[@id="center_column"]/ul/li[3]/div/div[2]/h5/a
 ${add_comparison_1}    //*[@id="center_column"]/ul/li[1]/div/div[3]/div[2]/a
 ${add_comparison_2}    //*[@id="center_column"]/ul/li[3]/div/div[3]/div[2]/a
 
-${button_compare}    //*[@id="center_column"]/div[3]/div/form/button
+${button_procced_to_checkout}    //*[@id="layer_cart"]/div[1]/div[2]/div[4]/a
+${button_add_product1}           //*[@id="center_column"]/ul/li[1]/div/div[2]/div[2]/a[1]
+${button_compare}                //*[@id="center_column"]/div[3]/div/form/button

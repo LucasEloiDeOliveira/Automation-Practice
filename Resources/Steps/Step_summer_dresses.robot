@@ -3,12 +3,20 @@ Resource    ${EXECDIR}\\Resources\\main.resource
 
 ***Keywords***
 
+### DADO
+Que esteja no catologo de produtos no site Automation Practice
+    Run Keyword And Ignore Error    Acessar site Automation Practice
+    Run Keyword And Ignore Error    Clicar no Submenu Dresses>Summer Dresses
+
+### QUANDO
+    Run Keyword And Ignore Error    Criar uma ordem de compra
+
 #### ENTÃO
 A tela de Summer Dresses de ser mostrada
-    Verificar tela Summer Dresses
+    Run Keyword And Ignore Error    Verificar tela Summer Dresses
 
 A tela de catalogo de ser mostrada
-    Verificar texto Catalog
+    Run Keyword And Ignore Error    Verificar texto Catalog
 
 ### AND
 

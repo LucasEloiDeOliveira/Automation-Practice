@@ -18,6 +18,7 @@ Resource    ../Resources/Pages/Page_casual_dresses.resource
 Resource    ../Resources/Pages/Page_evening_dresses.resource
 Resource    ../Resources/Pages/Page_summer_dresses.resource
 Resource    ../Resources/Pages/Page_product_comparison.resource
+Resource    ../Resources/Pages/Page_forgot_passw.resource
 
 ### Keywords
 Resource    ../Resources/Keywords/base.robot
@@ -31,6 +32,7 @@ Resource    ../Resources/Keywords/casual_dresses.robot
 Resource    ../Resources/Keywords/evening_dresses.robot
 Resource    ../Resources/Keywords/summer_dresses.robot
 Resource    ../Resources/Keywords/product_comparison.robot
+Resource    ../Resources/Keywords/forgot_passw.robot
 
 ### Steps
 Resource    ../Resources/Steps/Step_homepage.robot
@@ -42,3 +44,4 @@ Resource    ../Resources/Steps/Step_casual_dresses.robot
 Resource    ../Resources/Steps/Step_evening_dresses.robot
 Resource    ../Resources/Steps/Step_summer_dresses.robot
 Resource    ../Resources/Steps/Step_product_comparison.robot
+Resource    ../Resources/Steps/Step_forgot_passw.robot

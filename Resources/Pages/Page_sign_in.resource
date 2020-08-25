@@ -3,10 +3,11 @@
 ${title}                 header
 ${field_create_email}    //*[@id="email_create"]
 
-${field_email}       //*[@id="email"]
-${field_password}    //*[@id="passwd"]
-${button_create}     //*[@id="SubmitCreate"]
-${button_login}      //*[@id="SubmitLogin"]
+${field_email}          //*[@id="email"]
+${field_password}       //*[@id="passwd"]
+${button_create}        //*[@id="SubmitCreate"]
+${button_login}         //*[@id="SubmitLogin"]
+${link_forgot_passw}    //*[@id="login_form"]/div/p[1]/a
 
 ${radio_gender}            //*[@id="id_gender1"]
 ${textfield_first_name}    //*[@id="customer_firstname"]

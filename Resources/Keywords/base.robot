@@ -16,6 +16,7 @@ Abrir Navegador
 
     Open Browser               ${url}    ${browser}
     Maximize Browser Window
+    Set Selenium Speed  0.2 seconds
 
 Verificar Tela
     [Arguments]    ${element}    ${text}
@@ -144,10 +145,12 @@ Selecionar Radio Button
 Preencher Campo
     [Arguments]    ${element}    ${text}
 
-    # Scroll Element Into View         ${element}
-    Click Element    ${element}
-    Input text       ${element}    ${text}
+    # Scroll Element Into View    ${element}
+    Input text                  ${element}    ${text}
 
+Adiciona produto ao carrinho
+    Clicar  ${element}
+    Clicar  
 
 Fechar Navegador
     Close Browser

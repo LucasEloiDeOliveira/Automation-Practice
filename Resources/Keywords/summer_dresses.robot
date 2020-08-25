@@ -27,3 +27,7 @@ Verificar valor correto do produto com desconto 20%
     Verificar Elemento                          ${icon_list}
     Clicar                                      ${icon_list} 
     Verificar valor correto com os descontos    ${valor_produto20}    ${valor_antigo20}    ${desconto20}
+
+Criar uma ordem de compra
+    Adiciona produto ao carrinho  ${button_add_product1}
+

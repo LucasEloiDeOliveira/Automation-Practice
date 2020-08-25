@@ -15,6 +15,9 @@ Iniciar login na conta
     Preencher Campo    ${field_password}    ${login_password}
     Clicar             ${button_login}
 
+Iniciar recuperação de senha
+    Clicar             ${link_forgot_passw}
+
 Preencher formulário de cadastro
     Clicar                       ${radio_gender}
     Preencher Campo              ${textfield_first_name}    ${first_name}
@@ -46,6 +49,9 @@ Relogar da conta
     Clicar    ${button_sign_out}
     Clicar    ${link_sign_in}
 
+Deslogar da conta
+    Clicar    ${button_sign_out}
+   
 Validar login  
     Verificar Elemento  ${link_user}
 
