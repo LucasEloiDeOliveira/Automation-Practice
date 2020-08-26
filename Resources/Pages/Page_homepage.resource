@@ -16,3 +16,6 @@ ${women_submenu_summer_dresses}       //*[@id="block_top_menu"]/ul/li[1]/ul/li[2
 ${dresses_submenu_casual_dresses}     //*[@id="block_top_menu"]/ul/li[2]/ul/li[1]/a
 ${dresses_submenu_evening_dresses}    //*[@id="block_top_menu"]/ul/li[2]/ul/li[2]/a
 ${dresses_submenu_summer_dresses}     //*[@id="block_top_menu"]/ul/li[2]/ul/li[3]/a
+
+${button_cart}             //*[@id="header"]/div[3]/div/div/div[3]/div/a
+${button_cart_checkout}    //*[@id="button_order_cart"]

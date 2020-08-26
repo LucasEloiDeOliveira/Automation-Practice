@@ -1,30 +1,30 @@
 ***Variables***
 
-${create_email}    TesterAAG@TesterAAG.com.br
+${create_email}    TesterAAH@TesterAAH.com.br
 
-${login_email}       TesterAAG@TesterAAG.com.br
-${login_password}    TesterAAG
+${login_email}       TesterAAH@TesterAAH.com.br
+${login_password}    TesterAAH
 
 ${gender}    Mr.
 
-${first_name}    TesterAAG
-${last_name}     TesterAAG
-${password}      TesterAAG
+${first_name}    TesterAAH
+${last_name}     TesterAAH
+${password}      TesterAAH
 ${date}          1
 ${month}         1
 ${year}          1
 
-${adress_first_name}    TesterAAG
-${adress_last_name}     TesterAAG
-${adress_company}       TesterAAG
-${adress_adress}        TesterAAG
-${adress_adress2}       TesterAAG    
-${adress_city}          TesterAAG
+${adress_first_name}    TesterAAH
+${adress_last_name}     TesterAAH
+${adress_company}       TesterAAH
+${adress_adress}        TesterAAH
+${adress_adress2}       TesterAAH    
+${adress_city}          TesterAAH
 
 ${state}               1
 ${zip_Postal}          20008
 ${country}             1 
-${add_Information}     TesterAAG
+${add_Information}     TesterAAH
 ${home_phone}          123456700
 ${mobile_phone}        123456701
-${adress_reference}    TesterAAG
+${adress_reference}    TesterAAH

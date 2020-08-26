@@ -33,9 +33,9 @@ Criar uma ordem de compra com 1 produto
 
 Criar uma ordem de compra com 2 produtos
     Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
-    Adiciona produto ao carrinho    ${product2}    ${button_add_product2}    ${button_procced_to_checkout}
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
 
 Criar uma ordem de compra com 3 produtos
     Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
-    Adiciona produto ao carrinho    ${product2}    ${button_add_product2}    ${button_continue_shopping}
-    Adiciona produto ao carrinho    ${product3}    ${button_add_product3}    ${button_procced_to_checkout}
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}

@@ -16,7 +16,7 @@ Abrir Navegador
 
     Open Browser               ${url}         ${browser}
     Maximize Browser Window
-    Set Selenium Speed         0.5 seconds
+    Set Selenium Speed         0.1 seconds
 
 Verificar Tela
     [Arguments]    ${element}    ${text}
@@ -147,10 +147,10 @@ Comparar produtos
     Should Be Equal    ${prod2}    ${comp2}
 
 Selecionar Radio Button
-    [Arguments]  ${element}  
+    [Arguments]      ${element}    
     # Select Radio Button    ${element}
-    Sleep  4
-    Click Element  ${element}
+    Sleep            4
+    Click Element    ${element}
 
 Preencher Campo
     [Arguments]      ${element}    ${text}
@@ -160,8 +160,8 @@ Preencher Campo
 Adiciona produto ao carrinho
     [Arguments]    ${product}    ${add_product}    ${action}
 
-    Mouse Over       ${product}
-    Mouse Over       ${add_product}
+    Mouse Over    ${product}
+
     Click Element    ${add_product}
 
     Wait Until Element Is Visible    ${action}    5    Botao não visivel

@@ -16,7 +16,7 @@ Clicar no link GET SAVINGS NOW
     Run keyword And Continue On Failure    Clicar em GET SAVINGS NOW
 
 Clicar no link Sign in
-    Run keyword And Continue On Failure    Clicar em Sign_in
+    Run keyword And Continue On Failure    Clicar em Sign_in    
 
 #### ENTÃO
 A tela HOME deve ser mostrada

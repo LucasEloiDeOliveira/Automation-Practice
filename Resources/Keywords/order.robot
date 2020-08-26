@@ -33,6 +33,3 @@ Validar confirmação de compra
 
 Validar possibilidade de finalizar a compra
     Verificar Elemento    ${button_confirm_my_order}
-
-# Validar dados dos produtos na tela order
-#     Verificar Texto    text

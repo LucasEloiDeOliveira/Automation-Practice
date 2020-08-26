@@ -7,6 +7,12 @@ Resource    ${EXECDIR}\\Resources\\main.resource
 A tela de login de ser mostrada
     Run keyword And Continue On Failure    Verificar tela Sign_in
 
+### E
+Que esteja logado em uma conta
+    Run Keyword And Continue On Failure    Clicar no link Sign in
+    Run keyword And Continue On Failure    Iniciar login na conta
+    Run keyword And Continue On Failure    Acessar site Automation Practice
+
 É possivel realizar o login com o usuario cadastrado
     Run keyword And Continue On Failure    Relogar da conta
     Run keyword And Continue On Failure    Iniciar login na conta
@@ -30,4 +36,3 @@ O cadastro de login é realizado
     Run keyword And Continue On Failure    Registrar dados do formulário
 
 
-    

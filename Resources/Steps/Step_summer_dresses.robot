@@ -4,18 +4,20 @@ Resource    ${EXECDIR}\\Resources\\main.resource
 ***Keywords***
 
 ### DADO
-Que esteja no catologo de produtos no site Automation Practice
+Que esteja no catalogo de produtos no site Automation Practice
     Run keyword And Continue On Failure    Acessar site Automation Practice
     Run keyword And Continue On Failure    Clicar no Submenu Dresses>Summer Dresses
 
 ### QUANDO
-Criar uma ordem de compra de 1 produtos
+Criar uma ordem de compra de 1 produtos Summer Dresses
     Run keyword And Continue On Failure    Criar uma ordem de compra com 1 produto
 
-Criar uma ordem de compra de 2 produtos
+Criar uma ordem de compra de 2 produtos Summer Dresses
+    Run keyword And Continue On Failure    Clicar no Submenu Dresses>Summer Dresses
     Run keyword And Continue On Failure    Criar uma ordem de compra com 2 produtos
 
-Criar uma ordem de compra de 3 produtos
+Criar uma ordem de compra de 3 produtos Summer Dresses
+    Run keyword And Continue On Failure    Clicar no Submenu Dresses>Summer Dresses
     Run keyword And Continue On Failure    Criar uma ordem de compra com 3 produtos
 
 #### ENTÃO

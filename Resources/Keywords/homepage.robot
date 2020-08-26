@@ -57,3 +57,8 @@ Clicar no Submenu Dresses>Evening Dresses
 Clicar no Submenu Dresses>Summer Dresses
     Posicionar Mouse    ${menu_dresses}
     Clicar              ${dresses_submenu_summer_dresses}
+
+Clicar no Cart > Check out
+    Posicionar Mouse  ${button_cart}
+    Clicar  ${button_cart_checkout}
+    
