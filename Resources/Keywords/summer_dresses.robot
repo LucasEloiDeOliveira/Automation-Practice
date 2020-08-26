@@ -23,11 +23,19 @@ Verificar valor correto do produto com desconto 5%
     Verificar valor correto com os descontos    ${valor_produto}    ${valor_antigo}    ${desconto}
 
 Verificar valor correto do produto com desconto 20%
-    Scroll Page To Location                     0                   1000
+    Scroll Page To Location                     0                     1000
     Verificar Elemento                          ${icon_list}
     Clicar                                      ${icon_list} 
     Verificar valor correto com os descontos    ${valor_produto20}    ${valor_antigo20}    ${desconto20}
 
-Criar uma ordem de compra
-    Adiciona produto ao carrinho  ${button_add_product1}
+Criar uma ordem de compra com 1 produto
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_procced_to_checkout}
 
+Criar uma ordem de compra com 2 produtos
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
+    Adiciona produto ao carrinho    ${product2}    ${button_add_product2}    ${button_procced_to_checkout}
+
+Criar uma ordem de compra com 3 produtos
+    Adiciona produto ao carrinho    ${product1}    ${button_add_product1}    ${button_continue_shopping}
+    Adiciona produto ao carrinho    ${product2}    ${button_add_product2}    ${button_continue_shopping}
+    Adiciona produto ao carrinho    ${product3}    ${button_add_product3}    ${button_procced_to_checkout}

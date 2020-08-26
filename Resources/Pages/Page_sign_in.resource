@@ -9,7 +9,8 @@ ${button_create}        //*[@id="SubmitCreate"]
 ${button_login}         //*[@id="SubmitLogin"]
 ${link_forgot_passw}    //*[@id="login_form"]/div/p[1]/a
 
-${radio_gender}            //*[@id="id_gender1"]
+${radio_gender}    //*[@id="id_gender1"]
+
 ${textfield_first_name}    //*[@id="customer_firstname"]
 ${textfield_last_name}     //*[@id="customer_lastname"]
 ${textfield_password}      //*[@id="passwd"]

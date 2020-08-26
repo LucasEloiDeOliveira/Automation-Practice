@@ -14,9 +14,9 @@ E ${keyword}
 Abrir Navegador
     [Arguments]    ${url}    ${browser}
 
-    Open Browser               ${url}    ${browser}
+    Open Browser               ${url}         ${browser}
     Maximize Browser Window
-    Set Selenium Speed  0.2 seconds
+    Set Selenium Speed         0.5 seconds
 
 Verificar Tela
     [Arguments]    ${element}    ${text}
@@ -38,6 +38,7 @@ Verificar Texto do Elemento
 Verificar Elemento
     [Arguments]    ${element} 
 
+    Sleep                            2
     Wait Until Element Is Visible    ${element}    5
 
 Verificar Status da Classe do elemento
@@ -52,6 +53,11 @@ Clicar
 
     Wait Until Element Is Visible    ${element}    5
     Click Element                    ${element}
+
+Selecionar Checkbox
+    [Arguments]    ${element}
+
+    Select Checkbox    ${element}
 
 Posicionar Mouse
     [Arguments]    ${element}
@@ -81,9 +87,10 @@ Verificar Nao Exibicao da Imagem de Carregamento
     [Arguments]                          ${element}
     Wait Until Element Is Not Visible    ${element}    5    Erro no Carregamento do Filtro
 
-Scroll Elemetn To Location
-    [Arguments]                 ${element}
-    Scroll Element Into View    ${element}
+Scroll Element To Location
+    [Arguments]                          ${element}
+    Wait Until Element Is Not Visible    ${element}    5    Elemento não encontrado
+    Scroll Element Into View             ${element}
 
 Scroll Page To Location
     [Arguments]           ${x_location}                                   ${y_location}
@@ -140,17 +147,25 @@ Comparar produtos
     Should Be Equal    ${prod2}    ${comp2}
 
 Selecionar Radio Button
-    Select Radio Button    ${element}    ${text}
+    [Arguments]  ${element}  
+    # Select Radio Button    ${element}
+    Sleep  4
+    Click Element  ${element}
 
 Preencher Campo
-    [Arguments]    ${element}    ${text}
-
-    # Scroll Element Into View    ${element}
-    Input text                  ${element}    ${text}
+    [Arguments]      ${element}    ${text}
+    Click Element    ${element}
+    Input text       ${element}    ${text}
 
 Adiciona produto ao carrinho
-    Clicar  ${element}
-    Clicar  
+    [Arguments]    ${product}    ${add_product}    ${action}
+
+    Mouse Over       ${product}
+    Mouse Over       ${add_product}
+    Click Element    ${add_product}
+
+    Wait Until Element Is Visible    ${action}    5    Botao não visivel
+    Click Element                    ${action}
 
 Fechar Navegador
     Close Browser

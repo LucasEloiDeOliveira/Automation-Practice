@@ -5,8 +5,8 @@ Resource    ${EXECDIR}\\Resources\\main.resource
 
 ### E
 Recuperar a senha
-    Run Keyword And Ignore Error    Enviar email de recuperação de senha
-    Run Keyword And Ignore Error    Validar email de recuperação de senha enviado com sucesso
+    Run keyword And Continue On Failure    Enviar email de recuperação de senha
+    Run keyword And Continue On Failure    Validar email de recuperação de senha enviado com sucesso
 
 
     

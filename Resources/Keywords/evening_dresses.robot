@@ -15,8 +15,3 @@ Verificar texto Evening Dresses
 Verificar Women>Evening Dresses
     Verificar Texto do Elemento    ${menu_bar}    Women
     Verificar Texto do Elemento    ${menu_bar}    Evening Dresses
-
-# Verificar Dresses>Evening Dresses
-#     Verificar Texto do Elemento    ${menu_bar}    Women
-#     Verificar Texto do Elemento    ${menu_bar}    Dresses
-#     Verificar Texto do Elemento    ${menu_bar}    Evening Dresses

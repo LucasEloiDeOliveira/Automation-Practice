@@ -15,8 +15,3 @@ Verificar texto Casual Dresses
 Verificar Women>Casual Dresses
     Verificar Texto do Elemento    ${menu_bar}    Women
     Verificar Texto do Elemento    ${menu_bar}    Casual Dresses
-
-# Verificar Dress>Casual Dresses
-#     Verificar Texto do Elemento    ${menu_bar}    Women
-#     Verificar Texto do Elemento    ${menu_bar}    Dresses
-#     Verificar Texto do Elemento    ${menu_bar}    Casual Dresses
