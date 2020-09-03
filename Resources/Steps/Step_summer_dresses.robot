@@ -23,6 +23,7 @@ Criar uma ordem de compra de 3 produtos Summer Dresses
 #### ENTÃO
 A tela de Summer Dresses de ser mostrada
     Run keyword And Continue On Failure    Verificar tela Summer Dresses
+    Run keyword And Continue On Failure    Clicar no icone Grid
 
 A tela de catalogo de ser mostrada
     Run keyword And Continue On Failure    Verificar texto Catalog

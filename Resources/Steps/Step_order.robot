@@ -27,6 +27,19 @@ Informar os dados do usuário descadastrado
     Run keyword And Continue On Failure    Clicar em Procced to Checkout na aba shipping
     Run keyword And Continue On Failure    Clicar em pagar com cartão
 
+Informar os dados do usuário descadastrado na compra
+    Run keyword And Continue On Failure    Verificar tela Order
+    Run keyword And Continue On Failure    Clicar em Procced to Checkout
+
+    Run keyword And Continue On Failure    Iniciar criação de conta na compra
+    Run keyword And Continue On Failure    Preencher formulário de cadastro
+    Run keyword And Continue On Failure    Registrar dados do formulário
+
+    Run keyword And Continue On Failure    Clicar em Procced to Checkout na aba adress
+    Run keyword And Continue On Failure    Clicar em aceitar os termos de uso
+    Run keyword And Continue On Failure    Clicar em Procced to Checkout na aba shipping
+    Run keyword And Continue On Failure    Clicar em pagar com cartão  
+
 Informar os dados do usuário deslogado
     Run keyword And Continue On Failure    Verificar tela Order
     Run keyword And Continue On Failure    Clicar em Procced to Checkout
@@ -55,3 +68,5 @@ Fazer o checkout dos produtos pelo carrinho
     Run keyword And Continue On Failure    Validar possibilidade de finalizar a compra
     Run keyword And Continue On Failure    Clicar em confirmar compra
     Run keyword And Continue On Failure    Validar confirmação de compra
+    Run keyword And Continue On Failure    Deslogar da conta
+    

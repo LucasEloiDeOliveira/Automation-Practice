@@ -10,9 +10,13 @@ Iniciar criação de conta
     Preencher Campo    ${field_create_email}    ${create_email}
     Clicar             ${button_create}
 
+Iniciar criação de conta na compra
+    Preencher Campo    ${field_create_email}    ${create_email_buy}
+    Clicar             ${button_create}
+
 Iniciar login na conta
-    Preencher Campo    ${field_email}       ${login_email}
-    Preencher Campo    ${field_password}    ${login_password}
+    Preencher Campo    ${field_email}       ${exist_login_email}
+    Preencher Campo    ${field_password}    ${exist_login_password}
     Clicar             ${button_login}
 
 Iniciar recuperação de senha

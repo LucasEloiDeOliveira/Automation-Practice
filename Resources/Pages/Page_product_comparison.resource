@@ -2,5 +2,5 @@
 
 ${title}             header
 
-${product_comp_1}    //*[@id="product_comparison"]/tbody/tr[1]/td[2]/h5/a
-${product_comp_2}    //*[@id="product_comparison"]/tbody/tr[1]/td[3]/h5/a
+${product_comp_1}    css:#product_comparison td:nth-child(2) .product-name
+${product_comp_2}    css:#product_comparison td:nth-child(3) .product-name

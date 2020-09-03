@@ -136,7 +136,7 @@ Comparar produtos
     Click Element                    ${button_compare}
 
     Execute JavaScript    window.scrollTo(0,300)
-
+    
     Mouse Over    ${comp1}
     ${comp1} =    Get Text    ${comp1}
 
@@ -148,7 +148,6 @@ Comparar produtos
 
 Selecionar Radio Button
     [Arguments]      ${element}    
-    # Select Radio Button    ${element}
     Sleep            4
     Click Element    ${element}
 
